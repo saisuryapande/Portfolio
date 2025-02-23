@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAI SURYA PANDE - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I am a passionate web developer focused on front-end technologies.</p>
+        <img src="images/your-photo.jpg" alt="Photo of Sai Surya Pande">
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am currently pursuing my B.Tech at GMR Institute of Technology, Rajam. I have a passion for web development and have
+            been honing my skills in front-end technologies like HTML, CSS, and JavaScript.
+        </p>
+        <a href="#skills" class="cta-btn">Click here to check out what I've learned in HTML, CSS, and JS</a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li><strong>Python:</strong> Basics and practical applications</li>
+            <li><strong>HTML:</strong> Structure of web pages</li>
+            <li><strong>CSS:</strong> Styling and responsive design</li>
+            <li><strong>JavaScript:</strong> Interactivity and dynamic content</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>Built a personal portfolio website using HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+            <a href="https://github.com/saisuryapande/Portfolio" target="_blank" class="cta-btn">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Python Simple Calculator</h3>
+            <p>Created a simple calculator application using Python during my learning journey.</p>
+            <a href="https://github.com/yourusername/calculator" target="_blank" class="cta-btn">View on GitHub</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit-form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="interests">Select your interests:</label>
+            <input type="checkbox" name="interests" value="Coding"> Coding
+            <input type="checkbox" name="interests" value="Reading"> Reading
+
+            <label for="bio">Bio:</label>
+            <textarea id="bio" name="bio" maxlength="200" required></textarea>
+
+            <button type="submit" class="cta-btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 SAI SURYA PANDE | All Rights Reserved</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
